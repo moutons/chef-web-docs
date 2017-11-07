@@ -333,7 +333,7 @@ More information about each service can be found in the individual service logs 
 
 ha-status
 -----------------------------------------------------
-The ``ha-status`` subcommand is used to check the status for services running in a high availability topology. This command will verify the following:
+The ``ha-status`` subcommand is used to check the status for services running in the (deprecated as of Chef Server 12.8) DRBD high availability topology. This command will verify the following:
 
        * The Keepalived daemon is enabled in the config
        * The DRBD process is enabled in the config
